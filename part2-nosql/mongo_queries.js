@@ -1,4 +1,4 @@
-### 2.2 MongoDB Operations
+-Q 2.2 MongoDB Operations
 // OP1: insertMany() — insert all 3 documents
 
 db.products.insertMany([
