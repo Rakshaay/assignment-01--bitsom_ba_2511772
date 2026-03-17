@@ -1,4 +1,4 @@
-### Q1: List all customers from Mumbai along with their total order value
+- Q1: List all customers from Mumbai along with their total order value
 
 SELECT 
     c.customer_id,
@@ -13,7 +13,7 @@ GROUP BY c.customer_id, c.customer_name;
 
 
 
-### Q2: Find the top 3 products by total quantity sold
+- Q2: Find the top 3 products by total quantity sold
 
 SELECT 
     p.product_id,
@@ -27,7 +27,7 @@ LIMIT 3;
 
 
 
-### Q3: List all sales representatives and the number of unique customers they have handled
+- Q3: List all sales representatives and the number of unique customers they have handled
 
 SELECT 
     sr.sales_rep_id,
@@ -39,7 +39,7 @@ GROUP BY sr.sales_rep_id, sr.sales_rep_name;
 
 
 
-### Q4: Find all orders where the total value exceeds 10,000, sorted by value descending
+- Q4: Find all orders where the total value exceeds 10,000, sorted by value descending
 
 SELECT 
     o.order_id,
@@ -53,7 +53,7 @@ ORDER BY total_order_value DESC;
 
 
 
-### Q5: Identify any products that have never been ordered
+- Q5: Identify any products that have never been ordered
 
 SELECT 
     p.product_id,
